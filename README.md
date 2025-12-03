@@ -1,51 +1,89 @@
-# Natural ou Fake Natty? Como Vencer na Era das IAs Generativas
-
-## 🚀 Introdução
-
-> Woooow! Look at this 👀
-
-Olá pessoal, Venilton da DIO aqui! Inspirado na hype _"Natty or Not"_ do fisiculturismo, este Lab da DIO te convida a conhecer o mundo das IAs Generativas, explorando o potencial dessas tendências tecnológicas incríveis!
-
-## 🎯 Bora Pro Desafio!? Você Já Venceu 💪🤓
-
-### Objetivos
-
-1. **Explorar IAs Generativas**: Utilize essas tecnologias para criar conteúdos que sejam o mais realista possível. Seja criativo! Você pode produzir imagens, textos, áudios, vídeos ou combinações de tudo isso!
-1. **Potfólio de Projetos**:
-    1. Faça o "fork" deste repositório, criando uma cópia em seu GitHub pessoal;
-    2. Edite seu README com os detalhes do seu projeto, siga nosso [Template](#template) (é só copiar, colar e preencher);
-    3. Submeta o link do seu repositório na plataforma da DIO. Pronto, você acabou de fortalecer seu portfólio de projetos nos perfis do GitHub e DIO 🚀
-1. **Efeito de Rede**: Compartilhe seus resultados nas redes sociais com a hashtag **#LabDIONattyOrNot**. Não esqueça de nos marcar: [DIO](https://www.linkedin.com/school/dio-makethechange) e [falvojr](https://www.linkedin.com/in/falvojr).
-
-### Template
-
-```markdown
-# Título do Projeto Extremamente Aesthetic ;)
+# 🎥 Projeto Natty or Not — Avatar IA falando com minha própria voz
 
 ## 📒 Descrição
-Breve descrição do seu projeto
+Este projeto foi desenvolvido como parte do desafio **"Natty or Not"** da DIO, cujo objetivo é explorar o uso de **IAs Generativas** para criar conteúdos realistas.  
+Criei um vídeo de apresentação usando:
+
+- Uma **foto minha** transformada em vídeo com animação facial por IA.
+- Um **clone da minha própria voz**, gerada a partir de um áudio de referência.
+
+O objetivo foi produzir um resultado que parecesse o mais natural possível, simulando um vídeo real gravado por mim.
+
+---
 
 ## 🤖 Tecnologias Utilizadas
-Liste as IAs Generativas e outras ferramentas usadas
+
+### 🗣️ **Clonagem de Voz**
+- **VoicV (voicv.com)**  
+  Utilizado para clonar minha voz a partir de um sample de áudio pessoal.
+
+### 👤 **Criação de Avatar em Vídeo**
+- **HeyGen (app.heygen.com)**  
+  Ferramenta usada para animar minha foto e sincronizar com o áudio gerado.
+
+### 🛠️ **Ferramentas adicionais**
+- Editor local para ajustes no áudio e vídeo (Windows Movie Maker).
+- Git/GitHub para versionamento do projeto.
+
+---
 
 ## 🧐 Processo de Criação
-Descreva como você criou o conteúdo
+
+1. **Escolha da Foto**  
+   – Selecionei uma imagem minha com boa iluminação e fundo limpo.  
+   – Ajustei o enquadramento para ficar ideal para lipsync.
+
+2. **Clonagem da Voz**  
+   – Gravei um áudio curto com boa qualidade.  
+   – Enviei para o **VoicV** para gerar um modelo de voz pessoal.  
+   – Digitei meu roteiro e gerei o áudio final com a minha voz clonada.
+
+3. **Geração do Vídeo**  
+   – Fiz upload da minha foto no **HeyGen**.  
+   – Adicionei o áudio criado pelo VoicV.  
+   – Renderizei um vídeo com animação facial natural.
+
+4. **Edição Final (Opcional)**  
+   – Ajustei volume e equalização.  
+   – Adicionei cortes suaves e melhorei o ritmo.
+
+5. **Publicação**  
+   – Organizei o projeto no GitHub com boa estrutura e documentação.
+
+---
 
 ## 🚀 Resultados
-Apresente os resultados do seu projeto
 
-## 💭 Reflexão (Opcional)
-Comente sobre o desafio de criar algo 'natty' com IA.
-```
+- Um vídeo final onde **um avatar baseado na minha foto fala com minha própria voz clonada**.
+- O resultado ficou natural, convincente e coerente com os objetivos do desafio.
+- O processo ajudou a reforçar a compreensão sobre IAs generativas modernas:  
+  – Clonagem de voz  
+  – Talking avatars  
+  – Lip sync IA  
+  – Multimodalidade  
+  – Ética e uso responsável  
 
-### Exemplos e Insigths
+📌 O arquivo renderizado final está disponível na pasta `/output/` (ou forneça o link após subir no repositório).
 
-- [E-BOOK](/exemplos/E-BOOK.md)
-- [Podcast](/exemplos/PODCAST.md)
-- [Vídeo (Avatar Virtual)](/exemplos/VIDEO.md)
+---
 
-## Links Interessantes
+## 📁 Estrutura do Repositório
 
-[Base10: If You’re Not First, You’re Last: How AI Becomes Mission Critical](https://base10.vc/post/generative-ai-mission-critical/)
-
-![Base10's Trend Map Generative AI](https://github.com/digitalinnovationone/lab-natty-or-not/assets/730492/f4df26e8-f8f7-4419-8252-c69d73ea930c)
+lab-natty-or-not/
+│
+├── README.md                # Documentação principal
+├── roteiro/                 # O roteiro escrito do vídeo
+│   └── roteiro.txt
+│
+├── audio/                   # Áudios usados no projeto
+│   ├── sample_original.mp3
+│   └── voz_clonada_final.mp3
+│
+├── imagem/                  # Foto usada no video
+│   └── foto_original.jpg
+│
+├── output/                  # Resultado final do projeto
+│   └── video_final.mp4
+│
+└── extras/                  # Prints, comparações e testes opcionais
+    └── notas_processo.md

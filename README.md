@@ -80,10 +80,10 @@ lab-natty-or-not/
 │   └── voz_clonada_final.mp3
 │
 ├── imagem/                  # Foto usada no video
-│   └── foto_original.jpg
+│   └── foto_original.png
 │
 ├── output/                  # Resultado final do projeto
 │   └── video_final.mp4
 │
-└── extras/                  # Prints, comparações e testes opcionais
+└── extras/                  # Prints e descrição do processo de criação.
     └── notas_processo.md

@@ -63,7 +63,7 @@ O objetivo foi produzir um resultado que parecesse o mais natural possível, sim
   – Multimodalidade  
   – Ética e uso responsável  
 
-📌 O arquivo renderizado final está disponível na pasta `/output/` (ou forneça o link após subir no repositório).
+📌 O arquivo renderizado final está disponível na pasta `/output/` ou pelo link: https://www.youtube.com/watch?v=VZemxPdaGoA
 
 ---
 
